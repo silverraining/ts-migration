@@ -6,6 +6,7 @@ import { colors } from "../../assets/theme";
 import { InputHTMLAttributes } from "react";
 
 //Tag 5글자 이상 유효성 검증이 안되고있음.
+//추가해야함
 
 interface StyledInputProps extends InputHTMLAttributes<HTMLInputElement> {
   error: boolean;
